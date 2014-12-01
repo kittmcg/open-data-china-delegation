@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 /**
@@ -16,17 +17,17 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #D8F6CE;
-  background: -moz-radial-gradient(center, circle cover, #F2FBEF 0%, #D8F6CE 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #F2FBEF), color-stop(100%, #D8F6CE));
-  background: -webkit-radial-gradient(center, circle cover, #F2FBEF 0%, #D8F6CE 100%);
-  background: -o-radial-gradient(center, circle cover, #F2FBEF 0%, #D8F6CE 100%);
-  background: -ms-radial-gradient(center, circle cover, #F2FBEF 0%, #D8F6CE 100%);
-  background: radial-gradient(center, circle cover, #F2FBEF 0%, #D8F6CE 100%);
+  background: #b2dede;
+  background: -moz-radial-gradient(center, circle cover, #F2FBEF 0%, #b2dede 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #F2FBEF), color-stop(100%, #b2dede));
+  background: -webkit-radial-gradient(center, circle cover, #F2FBEF 0%, #b2dede 100%);
+  background: -o-radial-gradient(center, circle cover, #F2FBEF 0%, #b2dede 100%);
+  background: -ms-radial-gradient(center, circle cover, #F2FBEF 0%, #b2dede 100%);
+  background: radial-gradient(center, circle cover, #F2FBEF 0%, #b2dede 100%);
   background-color: #F2FBEF; }
 
 .reveal {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 100;
   letter-spacing: -0.02em;
@@ -48,7 +49,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #2E2E2E;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   line-height: 0.9em;
   letter-spacing: -0.08em;
@@ -61,7 +62,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #5F04B4;
+  color: #00AED6;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -70,13 +71,13 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #585858;
+  color: #08bef5;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #585858; }
+  background: #00AED6; }
 
 /*********************************************
  * IMAGES
